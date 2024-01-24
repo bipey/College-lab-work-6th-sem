@@ -5,6 +5,5 @@ function btn_actn() {
     localStorage.setItem("username", username);
     localStorage.setItem("password", password);
 
-    // Redirect to another HTML file
     window.location.href = "lab03_02_details.html";
 }
